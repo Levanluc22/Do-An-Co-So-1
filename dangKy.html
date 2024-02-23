@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="acssets/css/dangKy.css">
+    <link rel="stylesheet" href="acssets/bootstrap-5.2.3-dist/css/bootstrap.css">
+   
+</head>
+<body>
+    <header>
+        <div class="logo">AL Sports Fashion</div>
+    </header>
+    <main>
+        <div class="container">
+            <form class="bg-light p-4 mx-md-5 my-md-2">
+                <h2 class="text-center text-uppercase h3 ">Đăng ký</h2>
+                <div class="mb-3 mt-3">
+                    <label for="">Tên truy cập:</label>
+                    <input type="" class="form-control" id="" placeholder="Nhập tên truy cập" name="">
+              </div>
+              <div class="mb-3">
+                    <label for="pwd">Mật khẩu:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Nhập mật khẩu" name="pswd">
+              </div>
+              <div class="mb-3">
+                <label for="pwd">Nhập lại mật khẩu:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Nhập lại mật khẩu" name="pswd">
+          </div>
+              <div class="mb-3">
+                <label for="">Email:</label>
+                <input type="" class="form-control" id="" placeholder="Nhập email" name="">
+              </div>
+              <div class="mb-3">
+                    <p class="text-center">
+                        Bằng cách nhấn Đăng Ký Ngay, bạn đồng ý với <a style="color: blue;">Điều Khoản Dịch Vụ</a> và <a style="color: blue;">Chính Sách Bảo Mật</a>
+                    </p>
+              </div>
+              <div class="mb-3">
+                    <button type="submit" class="btn btn-danger w-100" onclick="redirect()"><a href="dangNhap.html" style="text-decoration: none; color: white;">Đăng ký ngay</a></button>
+              </div>
+        </div>
+    </main>
+    <script>
+        function redirect(){
+              alert("Bạn đã đăng ký thành công. Vui lòng đăng nhập lại !");
+              location.href="dangNhap.html";
+        }
+      </script>
+</body>
+</html>
